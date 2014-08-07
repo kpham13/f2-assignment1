@@ -398,6 +398,7 @@
 				0AD944AA1992FAE4002EA57D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AD944AB1992FAE4002EA57D /* Build configuration list for PBXNativeTarget "Assignment 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +407,7 @@
 				0AD944AD1992FAE4002EA57D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
