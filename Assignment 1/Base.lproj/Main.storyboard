@@ -22,15 +22,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-g5-XbC">
-                                <rect key="frame" x="16" y="217" width="58" height="30"/>
-                                <state key="normal" title="Gretings">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonGreetings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vD5-bo-HB2"/>
-                                </connections>
-                            </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XCW-6A-kiS">
                                 <rect key="frame" x="73" y="285" width="51" height="31"/>
                                 <connections>
@@ -55,6 +46,15 @@
                                     <action selector="sliderDidSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="tcI-eF-hsK"/>
                                 </connections>
                             </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-g5-XbC">
+                                <rect key="frame" x="16" y="217" width="67" height="30"/>
+                                <state key="normal" title="Greetings">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonGreetings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vD5-bo-HB2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
